@@ -20,5 +20,6 @@ companyAccount.withdraw(50);
 companyAccount.getLoan(500);
 
 const premiumAccount: PremiumAccount = new PremiumAccount("Keila", 3);
-premiumAccount.deposit(25);
+console.log(">>>>> >>>>> >>>>> premiumAccount");
 premiumAccount.deposit(100);
+premiumAccount.deposit(20);
