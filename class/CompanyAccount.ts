@@ -11,6 +11,7 @@ export class CompanyAccount extends DioAccount {
       console.log(`---------- EMPRÉSTIMO ----------`);
       console.log(`Você pegou um empréstimo de R$ ${value}`);
       console.log(`Saldo em conta atualizado: R$ ${this.balance}`);
+      console.log();
     }
   };
 }
